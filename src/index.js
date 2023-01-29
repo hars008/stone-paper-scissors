@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Footer from './footer';
 import Body from './body';
 
+// let score=0;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
