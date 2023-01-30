@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from "./images/logo-bonus.svg";
 import Score from "./score";
-const header = () => {
+const HardHeader = () => {
   return (
     <div className="header">
       <div className="logo">
@@ -12,4 +12,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default HardHeader;

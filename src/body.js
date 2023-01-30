@@ -13,7 +13,7 @@ const Body = () => {
   // console.log(score);
   const winHandler = () => {
     let score = parseInt(document.getElementById("finalScore").innerHTML);
-    console.log("score=" + score);
+    // console.log("score=" + score);
     document.getElementById('finalScore').innerHTML=score+1;
     // let finalscore = (document.getElementById("finalScore").innerHTML =score+1;
     // console.log("finalscore=" + finalscore);
@@ -59,7 +59,7 @@ const Body = () => {
     if (userChoice === "Rock") {
       if (x === 1) {
         losHandler();
-      } else if (x == 2) {
+      } else if (x ===2) {
         winHandler();
       }
     } else if (userChoice === "Paper") {
@@ -75,7 +75,6 @@ const Body = () => {
         winHandler();
       } 
     }
-    console.log(x);
 
     // console.log(x);
     return (
